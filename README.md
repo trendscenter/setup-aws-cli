@@ -1,10 +1,12 @@
 # AWS Command Line MFA Set up                                                                                                                
-These scripts are wrappers for the AWS command-line interface (CLI) multifactor authentication (MFA) setup procedure, which can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/authenticate-mfa-cli/). Using the AWS CLI with an MFA device is a common use case, but the procedure requires a lot of manual information retrieval, copying, and pasting. These script are meant to ease the process. 
+These scripts are wrappers for the AWS command-line interface (CLI) multifactor authentication (MFA) setup procedure, which can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/authenticate-mfa-cli/). Using the AWS CLI with an MFA device is a common use case, but the procedure requires a lot of manual information retrieval, copying, and pasting. These scripts are meant to ease the process. 
 
 ## Usage
 
 1. Set up `.env` file
-  - Copy `.env.example` to `.env`.
+  - Start with `.env.example` as a template.
+  
+    `cp .env.example .env`
   - Fill in your MFA ARN code for the `ARN` variable. This can be found on your security credentials page on AWS ([here](https://console.aws.amazon.com/iam/home?#/security_credentials)). The ARN code is the Assigned MFA device under the Multi-factor authentication (MFA) section.
     - e.g., `arn:aws:iam::111122223333:mfa/username`
   - If you like, you can change the filename where the environment variables will be stored as well. This is stored as the `ENV_FILE` variable.
