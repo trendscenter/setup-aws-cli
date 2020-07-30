@@ -15,17 +15,6 @@ VERBOSE=false
 
 # Parse command line arguments 
 
-#while getopts ":t:v:" opt; do
-#  case $opt in
-#    t) TOKEN="$OPTARG"
-#      ;;
-#    v) VERBOSE=true
-#      ;;
-#    *) usage
-#      ;;
-#  esac
-#done
-
 while [[ "$#" -gt 0 ]]; do
   case $1 in
     -t|--token) TOKEN="$2"; shift ;;
