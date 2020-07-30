@@ -37,6 +37,7 @@ These scripts are wrappers for the AWS command-line interface (CLI) multifactor 
   - e.g., `aws s3 ls` 
 
 5. Unset your environment variables or close your shell
+
   `source unset.sh`
 
 ## Dependencies
