@@ -1,5 +1,6 @@
 # AWS Command Line MFA Set up
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 These scripts are wrappers for the AWS command-line interface (CLI) multifactor authentication (MFA) setup procedure, which can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/authenticate-mfa-cli/). Using the AWS CLI with an MFA device is a common use case, but the procedure requires a lot of manual information retrieval, copying, and pasting. These scripts are meant to ease the process. 
 
 ## Usage
