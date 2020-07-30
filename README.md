@@ -38,7 +38,7 @@ These scripts are wrappers for the AWS command-line interface (CLI) multifactor 
 
 5. Unset your environment variables or close your shell
 
-  `source unset.sh`
+    `source unset.sh`
 
 ## Dependencies
 
