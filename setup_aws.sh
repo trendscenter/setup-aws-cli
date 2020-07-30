@@ -61,7 +61,7 @@ creds=`eval " $command"`
 if [ -z "${creds}" ]
 then
   echo "ERROR: Request failed"
-  exit 0
+  exit 1
 fi
 
 echo "Credentials received!"
