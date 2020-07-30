@@ -9,7 +9,7 @@ function load_env {
     set +a
 }
 
-usage() { echo "Usage: $0 -t mfa_code" 1>&2; exit 1; }
+usage() { echo "Usage: $0 [-v] -t mfa_code" 1>&2; exit 1; }
 
 VERBOSE=false
 
